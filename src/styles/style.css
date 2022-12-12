@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #bf1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.like {
+  position: fixed;
+  font-size: 30px;
+  bottom: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: #ff0000;
+  color: white;
+  border: 0;
+  border-radius: 60%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-images {
+  background: url(../public/images/heros/hero-image_4.jpg);
+  background-size: cover;
+  height: 80vh;
+  z-index: -1;
+}
+
+.nav-bar {
+  background-color: rgba(85, 83, 83, 0.5);
+  padding: 1.5rem 1rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.drawer {
+  padding:2rem;
+  display: none;
+  text-decoration: none;
+  width: 6rem;
+  font-size: 60px;
+  height: 3rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: rgb(216, 216, 216);
+}
+
+.nav-menu {
+  display: flex;
+  gap: 3rem;
+  margin-right: 2rem;
+}
+
+
+.rating {
+  margin: 1rem;
+}
+
+.description {
+  margin-top: 2rem;
+  font-size: 20px;
+  height: auto;
+}
+
+.nav-menu.active{
+  background-color: rgba(85, 83, 83, 0.8);
+  margin-top: 2rem;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 44px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+
+button.drawer{
+  background: none;
+  border: none;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-logo {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+.name {
+text-decoration: none;
+margin: 2rem;
+padding: 2rem;
+color: #fff;
+}
+
+.rating {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.restaurant-title {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgb(109, 106, 106);
+  color: #fff;
+  font-size: 2rem;
+}
+
+.restaurant {
+  background-color: rgb(109, 106, 106);
+}
+  
+#mainContent {
+  background-color: rgb(109, 106, 106);
+}
+
+.card {
+  color: #fff;
+  margin-bottom: 2rem;
+  width: 50rem;
+  display: column;
+  background-color: rgb(80, 77, 77);
+  padding-bottom: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.images-card {
+  border-radius: 1rem;
+  width: 90%;
+  height: 50vh;
+}
+
+footer {
+  padding: 1rem;
+  background-color: rgb(115, 113, 113);
+  text-align: center;
+}

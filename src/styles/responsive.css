@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+  .background-images {
+    background: url(../public/images/heros/hero-image_4.jpg);
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1276px) {
+  .nav-link {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 7rem;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.2s;
+    font-weight: 800;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .drawer {
+    display: block;
+    cursor: pointer;
+  }
+  .restaurant-img{
+    width: 100%;
+  }
+}

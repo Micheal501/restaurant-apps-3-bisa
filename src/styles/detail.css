@@ -1,0 +1,76 @@
+*{
+    color: #fff;
+}
+
+.restaurant-images {
+    text-align: center;
+}
+
+.restaurant-img{
+    margin-top: 5rem;
+}
+
+.detail-inside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.city, .address {
+    font-size: 1.5rem;
+    height: 3rem;
+}
+
+.restaurant-name {
+    padding:1.5rem;
+    font-size: 2rem;
+}
+
+.detail-description {
+    text-align: center;
+    max-width: 70%;
+    text-justify: inter-word;
+}
+
+.menu-title {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-title {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.review-card {
+    padding: 2rem;
+    border: 0.5rem solid;
+    margin-bottom: 2rem;
+    width: 40%;
+    background-color: rgb(58, 58, 58);
+}
+
+.reviews {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewer {
+    display: flex;
+    justify-content: center;
+}
+
+.review-text {
+    display: flex;
+    justify-content: center;
+}
